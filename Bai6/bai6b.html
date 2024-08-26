@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAI 6B</title>
+    <style>
+        div{
+            width: 700px;
+            margin: auto;
+            padding: 10px;
+            border: solid 1px rgb(65, 65, 234);
+        }
+        td{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Contact Us</h1>
+        <form action="">
+            <fieldset>
+                <legend>Your message:</legend>
+                <table>
+                <tr> 
+                <td>To</td>
+                <td><input type="text" id="to" name="to" value="" placeholder="Example Cafe"></td>
+                <td></td>
+                </tr>
+                <tr>
+                <td>Email</td>
+                <td> <input type="email" id="email" name="email" required></td>
+                <td></td>
+                </tr>
+                <tr>
+                    <td>Message:</td> 
+                    <td colspan="3"><textarea name="message" id="message" cols="30" rows="10" ></textarea></td>
+                </tr>
+                </table>
+                <br><br>
+                <label for="file">Attach File</label>
+                <input type="file" id="file" name="file"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>How you found us:</legend>
+    
+                <label for="source">How did you hear of us</label>
+                <select id="source" name="source">
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+    
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                <label for="newsletter">Ensure this box is checked if you would like to receive email updates</label><br><br>
+            </fieldset>
+    
+            <input type="submit" value="Send message">
+
+        
+        </form>
+    </div>
+</body>
+
+</html>
