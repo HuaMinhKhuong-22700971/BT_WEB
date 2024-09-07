@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bài 1 </title>
+    <style>
+        
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        
+        div {
+            border: 1px solid gray;
+            width: 500px;
+            margin-top: 40px;
+            padding-bottom: 20px;
+            box-shadow: 4px 4px 5px gray, -4px -4px 5px gray;
+        }
+        
+        h1 {
+            color: brown;
+            text-align: center;
+            text-shadow: 3px 20px 15px brown;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        header {
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+            line-height: 100px;
+        }
+        
+        ul.link li a {
+            text-decoration: none;
+        }
+        
+        ul.link li {
+            display: inline-block;
+        }
+        
+        nav {
+            border-bottom: 1px solid black;
+        }
+        
+        h2 {
+            background-color: #faf1dd;
+            color: rgb(172, 9, 42);
+        }
+        
+        .backtop {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 id="backtop"> <i> Example Cafe Menu</i></h1>
+        </header>
+        <nav>
+            <ul class="link">
+                <li><a href="#Starters">Starters</a></li>
+                <li><a href="#Maincourse">Main courses</a></li>
+                <li><a href="#Desserts">Desserts</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2 id="Starters"> Starters</h2>
+            <ul>
+                <li>Chestnut and Mushroom Goujons<u>(v)</u></li>
+                <li>Goat Cheese Salad<u>(v)</u></li>
+                <li>Honey Soy Chicken Kebabs</li>
+                <li>Seafood Salad</li>
+            </ul>
+            <br>
+            <a class="backtop" href="#backtop"> Back to top</a>
+            <br>
+            <h2 id="Maincourse"> Main courses</h2>
+            <ul>
+                <li>Spinach and Ricotta Roulade<u>(v)</u></li>
+                <li>Beef Tournados with Mustard and Dill Sauce</li>
+                <li>Roast Chicked Salad</li>
+                <li>Icelandic Cod with Parsley Sauce</li>
+                <li>Mushroom Wellington<u>(v)</u></li>
+            </ul>
+            <br>
+            <a class="backtop" href="#backtop"> Back to top</a>
+            <h2 id="Desserts"> Desserts</h2>
+            <ul>
+                <li>Lemon Sorbet<u>(v)</u></li>
+                <li>Chocolate Mud Pie<u>(v)</u></li>
+                <li>Pecan Pie</li>
+                <li>Selection of Fine Cheese from Around the World</li>
+            </ul>
+        </section>
+        <br>
+        <p>Items marked with a (v) are suitable for vegatarians</p>
+    </div>
+</body>
+
+
+
+
+</html>

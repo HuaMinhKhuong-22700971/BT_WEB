@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Bài 1 </title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        
+        .container {
+            border: 1px solid gray;
+            width: 1000px;
+            box-shadow: 4px 4px 5px gray, -4px -4px 5px gray;
+        }
+        
+        #backtop {
+            color: brown;
+            text-align: center;
+            text-shadow: 3px 20px 15px brown;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        header {
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+            line-height: 50px;
+        }
+        
+        ul.link li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        ul.link li {
+            display: inline-block;
+            border-left: 1px solid blue;
+            padding: 5px;
+        }
+        
+        nav.Menu {
+            border-bottom: 1px solid black;
+            background-color: #ed9496;
+            text-align: center;
+            width: 100%;
+        }
+        nav.side{
+            width:20%;
+            float: left;
+            padding-top: 5px;
+        }
+        nav.side ul li{
+            background-color: #ed9496;
+            line-height: 30px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            
+        }
+        nav.side ul li a{
+            text-decoration: none;
+            color: white
+        }
+        nav.side ul li:hover{
+            background-color: rgb(206, 123, 123);
+        }
+        nav.side #company{
+            width: 150px;
+            border-radius: 100%;
+            height: auto;
+            box-shadow: 5px 10px 5px #ed9496;;
+
+        }
+        nav.side ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        section{
+            width: 50%;
+            height: auto;
+            float: left;
+            padding-left: 10px;
+            
+
+        }
+        aside{
+            width: 30%;
+            height: auto;
+            float: left;
+            background-color: black ;
+            
+            
+            
+        }
+
+        h2 {
+            width: 70%;
+            background-color: #ed9496;
+            color: rgb(172, 9, 42);
+            letter-spacing: 10px;
+            
+            
+        }
+        
+        .backtop {
+            color: red;
+        }
+        aside .Event{
+            
+            margin: 0;
+            padding: 0;
+            color: white;
+           
+        }
+        aside img{
+            width: 230px;
+            height: auto;
+        }
+        aside div.text{
+            width: 100%;
+            margin: 0;
+            padding: 30px;
+            vertical-align: text-bottom;
+            
+        }
+        table{
+            margin: 0;
+            
+        } 
+        form table tr td{
+            padding: 10px;
+        }
+        form table tr td input{
+            padding: 10px;
+           
+
+            
+        }
+        form{
+            max-width: 600px;
+            margin: 0 auto;
+            
+        }        
+        footer{
+            text-align: center;
+            line-height: 50px;
+            width: 100%;
+            clear: both;
+            height: 50px;
+            background-color: #ed9496;
+            text-align: center;
+            color: white;
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1  id="backtop"> <i> Example Cafe Menu</i></h1>
+        </header>
+        <nav class="Menu" >
+            <ul class="link">
+                <li style="border: none; padding-top: 5px;"><img src="..//image/icons8-home-50.png" alt="" style="width:20px ;"></li>
+                <li><a href="#Starters">Starters</a></li>
+                <li><a href="#Maincourse">Main courses</a></li>
+                <li><a href="#Desserts">Desserts</a></li>
+                <li>
+                    <form action="">
+                        <input  type="text" name="" id=""><input type="button" value="Go">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <nav class="side">
+            <ul>
+                <li><a href="#">Cafe Latte</a></li>
+                <li><a href="#">Cappuchino</a></li>
+                <li><a href="#">Ocean Blue</a></li>
+                <li><a href="#">Ice-cream Cafe</a></li>
+                <li><a href="#">Order Online</a></li>
+                
+              </ul>
+              <img src="..//image/company.png" alt="company" id="company">
+        </nav>
+        <section>
+            <h2  id="Starters"> Starters</h2>
+            <ul>
+                <li>Chestnut and Mushroom Goujons<u>(v)</u></li>
+                <li>Goat Cheese Salad<u>(v)</u></li>
+                <li>Honey Soy Chicken Kebabs</li>
+                <li>Seafood Salad</li>
+            </ul>
+            <br>
+            <a class="backtop" href="#backtop"> Back to top</a>
+            <br>
+            
+            <h2 id="Desserts"> Desserts</h2>
+            <ul>
+                <li>Lemon Sorbet<u>(v)</u></li>
+                <li>Chocolate Mud Pie<u>(v)</u></li>
+                <li>Pecan Pie</li>
+                <li>Selection of Fine Cheese from Around the World</li>
+            </ul>
+            <a class="backtop" href="#backtop"> Back to top</a>
+            <h2  id="Starters"> INFORMATION</h2>
+            <form action="">
+                <table>
+                    <tr>
+                        <td><input type="text" name="" id="" placeholder="First Name"></td>
+                        <td><input type="text" name="" id="" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="" id="" placeholder="Email"></td>
+                        <td> <input type="text" name="" id="" placeholder="Telephone"></td>
+                    </tr>
+                    <tr>
+                        <td><select name="" id="" style="width: 177px;">
+                            <option value="USA">USA</option>
+                            <option value="Russia">Russia</option>
+                        </select></td>
+                        <td>
+                           
+                            <input type="radio" name="check" id="Vietnamese">Vietnamese
+                            
+                            <input type="radio" name="check" id="Foreigner">Foreigner
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="" id=""placeholder="Comment" cols="55" rows="5" ></textarea></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="submit">
+                            <input type="reset" value="cancel">
+                        </td>
+                        
+                    </tr>
+                </table>
+
+            </form>
+
+
+        </section>
+        <aside> 
+            <h1 class="Event">Event</h1>
+            <div class="text">
+                <h1 class="Event">Regular Meetings</h1>
+                <img src="..//image/meeting.png" alt="meeting">
+                <p style="color: white;">Host your regular team meetings or activities in the comfort
+                 of your own private room. <a style="color: palevioletred ;" href="">Read more</a>
+                </p>
+                <br>
+                <h1 class="Event">Product Launches</h1>
+                <img src="..//image/launch.png" alt="launch">
+                <p style="color: white;">Launch your product with ease in a space that truly fits its image.
+                    <a style="color:palevioletred ;" href="">Read more</a>
+               </p>
+            </div>
+        </aside>
+        <footer>
+        <p><i>ABC Company - 12345678 - abcoffee@gmail.com </i></p>
+    </footer>
+    </div>
+</body>
+
+
+
+
+</html>
